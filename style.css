@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    text-align: center;
+}
+#first{
+    
+    display:flex;
+    justify-content: space-around;
+}
+#first input{
+    width:475px;
+    height:40px;
+    font-size: 15px;
+}
+#first input::placeholder{
+    font-size: 18px;
+    
+}
+#first select{
+    width:475px;
+    height:43px;
+}
+#first select option{
+    font-size: 15px;
+}
+#first button{
+    width:200px;
+    height:44px;
+    background-color: black;
+    color:white;
+    font-size: 15px;
+}
+h2{
+    margin-left: 8px;
+}
+table{
+    border:2px solid black;
+    border-collapse: collapse;
+    width:100vw;
+    height:5vh;
+}
+table tr{
+        justify-content: space-around;
+}
+table tr td{
+    background-color: black;
+    color: white;
+    padding: 1px;
+    font-size: 18px;
+    
+}
+button{
+    width:20px;
+    height: 26px;
+    background-color: black;
+    cursor: pointer;
+}
+img{
+    border: 1px solid rgb(13, 13, 13);
+    border-radius: 50%;;
+}
